@@ -1,5 +1,6 @@
 # Interactive PCA Explorer
 
+
 This [Shiny](http://shiny.rstudio.com/) application takes a CSV file of clean data, allows you to inspect the data and compute a Principal Components Analysis, and will return several diagnostic plots and tables. The plots include a tableplot, a correlation matrix, a scree plot, and a biplot of Principal Components.
 
 You can chose which columns to include in the PCA, and which column to use as a grouping variable. You can choose the center and/or scale the data, or not. You can choose which PCs to include on the biplot.
